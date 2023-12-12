@@ -9,3 +9,5 @@ set -euf
 
 # Start bot loop
 . /app/functions/main-loop.sh
+
+. /app/functions/setup_dash.sh
