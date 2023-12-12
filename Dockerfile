@@ -14,6 +14,7 @@ RUN set -eux; \
         git \
         # Required for building PyNaCl
         libsodium-dev \
+        locales \
         # Required for building CFFI
         libffi-dev \
         # start-redbot.sh
