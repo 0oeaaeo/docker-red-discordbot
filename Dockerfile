@@ -30,7 +30,6 @@ RUN set -eux; \
     mkdir -p /config/.config/Red-DiscordBot; \
     ln -s /data/config.json /config/.config/Red-DiscordBot/config.json;
 
-VOLUME /data
 
 ENV SODIUM_INSTALL system
 
